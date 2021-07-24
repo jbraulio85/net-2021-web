@@ -34,6 +34,16 @@ footer a{
     color: azure;
 }
 
+p{
+    font-size: 18px;
+    color: #1c3886;
+}
+
+label{
+    display: block;
+    float: center;
+}
+
 #contenido table{
     margin:auto;
 }
@@ -90,6 +100,26 @@ footer a{
     margin-bottom: 20px;
 }
 
+.contact_form{
+    width: 460px;
+    height: auto;
+    margin: auto;
+    border-radius: 10px;
+    padding-bottom: 20px;
+    background-color: #fbfbfb;
+    padding-left: 100px;
+    display:flow-root;
+}
+
+.formulario input:focus{
+    outline: 0;
+    border: 1px solid cornflowerblue;
+}
+
+.formulario textarea:focus{
+    outline: 0;
+    border: cornflowerblue;
+}
 #contenido form{
     border: 2px solid blue;
     margin-top: 15px;
@@ -100,6 +130,14 @@ footer a{
 #contenido form *{
     display:inline-block;
 }
+
+#contacto form{
+    border: 2px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
 
 input[type="text"], select{
     margin-bottom: 15px;
