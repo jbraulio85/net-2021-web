@@ -34,12 +34,15 @@ footer a{
     color: azure;
 }
 
+#contenido table{
+    margin:auto;
+}
+
 #contenido{
-    border: 2px solid #FDCC00;
     padding: 10px;
 }
 
-#contenido img{
+#principal{
     margin-left: 5%;
     margin-bottom: 5%;
 }
@@ -49,4 +52,71 @@ footer a{
     text-decoration: underline;
     font-weight: bold;
     margin: 10px;
+}
+
+#menu{
+    background-color: #eee;
+}
+
+#menu ul li{
+    display: block;
+    float: left;
+    border-right: #ccc 1px solid;
+}
+
+#menu ul li a{
+    display: block;
+    padding: 15px;
+    color: #444;
+}
+
+#menu ul li :hover{
+    cursor: pointer;
+    background-color: #1c3886;
+    color: white;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
+}
+
+
+
+.subtitulo{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#contenido form{
+    border: 2px solid blue;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+#contenido form *{
+    display:inline-block;
+}
+
+input[type="text"], select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px;
+}
+
+select {
+    width: 350px;
+}
+
+input[type="submit"], button{
+    background-color: #7D0A42;
+    color:white;
+    padding: 10px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border:solid black 1px;
+    cursor: pointer;
 }
