@@ -5,49 +5,50 @@
     <title>Sistema de control académico Kalum v1.0.0</title>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
-<body>
-    <header>
-        <h1>Sistema de control académico <em>Kalum</em><h6>v1.0.0</h6></h1>
-    </header>
-    <nav id="menu">
-        <ul>
-            <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./carreras-tecnicas.html">Carreras Técnicas</a></li>
-            <li><a href="./clases.html">Clases</a></li>
-            <li><a href="./inscripcion.html">Inscripción</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-            <div class="clearFix"></div>
-        </ul>
-    </nav>
-    <hr>
-    <h2 class="subtitulo">Contacto</h2>
-    <div class="contact_form">
-        <div class="formulario">
-            <form action="">
-                <p>
-                    <label for="nombre">Nombre:</label>
-                    <input type="text" name="nombres" placeholder="Nombre completo">
-                </p>
-                <p>
-                    <label for="email">Email:</label>
-                    <input type="text" name="email" placeholder="correo electrónico">
-                </p>
-                <p>
-                    <label for="informacion">Información:</label>
-                    <input rows="5" type="text" name="informacion" placeholder="Información adicional">
-                </p>
-                <p>
-                    <label for="telefono">Teléfono:</label>
-                    <input type="text" name="telefono" placeholder="# teléfono">
-                </p>
-                <p>
-                    <input type="submit" value="Enviar"> 
-                </p>
-            </form>
+    <body>
+        <header>
+            <h1>Sistema de control académico <em>Kalum</em><h6>v1.0.0</h6></h1>
+        </header>
+        <nav id="menu">
+            <ul>
+                <li><a href="./index.html">Inicio</a></li>
+                <li><a href="./carreras-tecnicas.html">Carreras Técnicas</a></li>
+                <li><a href="./clases.html">Clases</a></li>
+                <li><a href="./inscripcion.html">Inscripción</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+                <div class="clearFix"></div>
+            </ul>
+        </nav>
+        <hr>
+        <h2 class="subtitulo">Contacto</h2>
+        <div class="contact_form">
+            <div class="formulario">
+                <form action="">
+                    <p>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="nombres" id="txtNombre" placeholder="Nombre completo">
+                    </p>
+                    <p>
+                        <label for="email">Email:</label>
+                        <input type="text" name="email" id="txtEmail" placeholder="correo electrónico">
+                    </p>
+                    <p>
+                        <label for="informacion">Información:</label>
+                        <input rows="5" type="text" id="txtInformacion" name="informacion" placeholder="Información adicional">
+                    </p>
+                    <p>
+                        <label for="telefono">Teléfono:</label>
+                        <input type="text" name="telefono" placeholder="# teléfono">
+                    </p>
+                    <p>
+                        <button id="btnEnviar">Enviar</button>
+                    </p>
+                </form>
+            </div>
         </div>
-    </div>
-    <footer>
-        Todos los derechos reservados &copy; <a href="http://www.kinal.org.gt"> Kalum v1.0.0</a>
-    </footer>
-</body>
+        <footer>
+            Todos los derechos reservados &copy; <a href="http://www.kinal.org.gt"> Kalum v1.0.0</a>
+        </footer>
+    </body>
+    <script src="assets/js/app.js"></script>
 </html>
