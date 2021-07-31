@@ -106,7 +106,8 @@ label{
     margin: auto;
     border-radius: 10px;
     padding-bottom: 20px;
-    background-color: #fbfbfb;
+    padding-top: 20px;
+    background-color: #eee;
     padding-left: 100px;
     display:flow-root;
 }
